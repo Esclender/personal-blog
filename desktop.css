@@ -1,0 +1,32 @@
+.social-medias-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100vw;
+    height: 5rem;
+    background-color: var(#0ff);
+}
+
+.social-medias-desktop a{
+    padding: 0.3rem 1rem;
+}
+
+
+.social-medias-desktop a img{
+    height: 4rem;
+}
+
+
+.hero{
+    height: 12rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 4rem;
+    
+}
+
+
+.hero img{
+    width: 20rem;
+}
