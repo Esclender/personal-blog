@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+:root{
+    --bg-color: #0ff;
+    --section-color: rgb(230, 233,237);
+    --main-color: rgb(34, 39, 45);
+    --white: #fff ;
+    /* font */
+    --lg: 2.6rem;
+    --md: 1.8rem;
+    --sm: 1rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+.hero{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--white);
+
+}
+
+.hero img{
+    width: 100% ;
+    object-fit: contain;
+    
+}
+
+.hero a{
+    display: none;
+}
+
+#main__container{
+    font-family: 'Inconsolata', monospace;
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--main-color);
+    background-color: var(--section-color);
+}
+
+#main__container h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: var(--lg);
+}
+
+#main__container img{
+    width: 100%;
+}
+
+.about-me{
+    
+    font-size: var(--md);
+    padding: 2rem;
+    text-align: left;
+}
+
+.projects{
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+.projects .jobs{
+    width: 100%;
+    height: 20rem;
+
+    background-image: url(../assets/post-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    border-radius: 10px;
+
+    margin-top: 0.9rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    color: var(--white);
+}
+
+.jobs__info{
+    background-color: #21161651;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: var(--md);
+    backdrop-filter: blur(8px);
+
+    border-radius: 8px;
+}
+
+@media (max-width:500px){
+    .social-medias-desktop{
+        display: none;
+    }
+
+}

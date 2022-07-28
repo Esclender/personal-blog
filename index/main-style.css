@@ -53,15 +53,12 @@ body{
     background-image: url(./assets/Cover\ \(1\).png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     text-align: center;
 }
 
-#main__container .main__info{
-    position: absolute ;
-    left: 1.9rem;
-    top: 16rem;
-}
+
 
 .main__info h2{
     font-size: var(--lg);
@@ -89,5 +86,11 @@ body{
 @media (max-width:500px){
     .social-medias-desktop{
         display: none;
+    }
+
+    #main__container .main__info{
+        position: absolute ;
+        left: 1.9rem;
+        top: 16rem;
     }
 }
