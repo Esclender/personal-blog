@@ -87,10 +87,10 @@ body{
     
     height: 25rem;
 
-    background-image: url(../assets/post-2.png);
+    
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    
     text-align: left;
     border-radius: 10px;
 
@@ -104,7 +104,7 @@ body{
 }
 
 .jobs__info{
-    background-color: #21161651;
+    background-color: #33333397;
     padding: 0.8rem;
     width: 30rem;
     font-size: var(--md);
@@ -114,7 +114,7 @@ body{
 }
 
 .contact{
-    width: 100vw;
+    width: 100%;
     height: 30rem;
     display: flex;
     flex-direction: column;
